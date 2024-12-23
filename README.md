@@ -98,6 +98,49 @@ The program is built around the `StudentGradeTracker` class and uses **Tkinter**
     except ValueError as e:
         messagebox.showerror("Error", f"Invalid input: {e}")
 
+## Code Explanation  
+
+The `StudentGradeTracker` class is the core of the application.
+
+### **Initialization:**
+- A dictionary stores grades for each subject.
+- Tkinter widgets like labels, entry boxes, and buttons are created for the GUI.
+
+### **Adding/Updating Grades:**
+- Users input grades which are validated and stored in the dictionary.
+
+### **Displaying Summary:**
+- The program calculates the average, letter grade, and GPA, and displays them with all subjects and grades.
+
+### **Letter Grade and GPA Conversion:**
+- Numeric grades are converted into letter grades (A–F) and GPA on a scale of 4.0.
+
+---
+
+## Future Improvements  
+- Implement file-based or database storage for data persistence.
+- Add support for importing/exporting grade data.
+- Enhance UI/UX with visualizations like charts or graphs.
+- Add role-based access for teachers and students.
+
+---
+
+## Example Output  
+
+### **Adding a grade:**
+- Enter subject: Math`
+- Enter grade: 95`
+- Output: "Grade for 'Math' has been added/updated."
+
+### **Displaying summary:**
+##yaml
+##Grade Summary:
+  ##- Math: 95
+##Overall Average: 95.00
+##Letter Grade: A
+##GPA: 4.00
+
+
 ### Contact  
 
 For any questions or feedback, feel free to reach out to:  
