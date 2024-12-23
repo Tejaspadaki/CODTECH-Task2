@@ -16,6 +16,9 @@ Develop a Python program to track and manage student grades. This program allows
 - Calculate the average grade.  
 - Display the overall grade with additional details like letter grade and GPA.
 
+![STUDENT GRADE TRACKER](student.png)
+
+
 ---
 
 ## Features  
